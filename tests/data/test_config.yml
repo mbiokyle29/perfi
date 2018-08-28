@@ -1,0 +1,10 @@
+assets:
+  - model: Asset
+    label: Foo Asset
+    principal: 1000.00
+    apr: 0.05
+liabilities:
+  - model: Liability
+    label: Foo Liability
+    principal: 1000.00
+    apr: 0.05

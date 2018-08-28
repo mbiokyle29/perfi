@@ -26,10 +26,12 @@ setup(
     author="Kyle McChesney",
     author_email="mbiokyle29@gmail.com",
     url="https://github.com/mbiokyle29/perfi",
-    packages=["perfi", "perfi.lib"],
+    packages=["perfi", "perfi.lib", "perfi.lib.liability", "perfi.lib.asset"],
     package_dir={
         "perfi": "perfi",
-        "perfi.lib": "perfi/lib"
+        "perfi.lib": "perfi/lib",
+        "perfi.lib.liability": "perfi/lib/liability",
+        "perfi.lib.asset": "perfi/lib/asset",
     },
     entry_points="""
         [console_scripts]
